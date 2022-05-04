@@ -27,4 +27,7 @@ isEvenNumber(array);
 
 
 
+const reducedArray = array.reduce((sum, current) => sum+current);
+
+
 
