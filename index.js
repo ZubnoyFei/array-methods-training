@@ -19,13 +19,10 @@ const everyArray = function(element, index, array) {
 }
 everyArray(array, 0, []);
 
-function isEvenNumber(num) {
-    return num%2;
-}
 
-isEvenNumber(array);
+console.log(array.some(item=> item>2));
 
-
+console.log(array.every(item=>typeof(item)==='number'));
 
 const reducedArray = array.reduce((sum, current) => sum+current);
 
